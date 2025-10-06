@@ -59,10 +59,10 @@ Cette étude illustre comment les méthodes numériques (ici les volumes finis) 
 ### 3. Réchauffement avec écoulement potentiel
 - Introduction d’un champ de vitesse potentiel :
   
-  \begin{cases}
-  $$\(V_r = (1 - R^2/r^2) U \cos(\theta) \\
-  V_\theta = -(1 + R^2/r^2) U \sin(\theta)\)$$
-  \end{cases}
+
+  $$\(V_r = (1 - R^2/r^2) U \cos(\theta)\)$$ 
+  $$\V_\theta = -(1 + R^2/r^2) U \sin(\theta)\)$$
+  
   
 - Étude de la compétition **advection–diffusion** selon la vitesse U :
   - Calcul des **nombres de Reynolds et de Péclet**.
