@@ -61,7 +61,7 @@ Cette étude illustre comment les méthodes numériques (ici les volumes finis) 
   
 
   $$\(V_r = (1 - R^2/r^2) U \cos(\theta)\)$$ 
-  $$\V_\theta = -(1 + R^2/r^2) U \sin(\theta)\)$$
+  $$\(V_\theta = -(1 + R^2/r^2) U \sin(\theta)\)$$
   
   
 - Étude de la compétition **advection–diffusion** selon la vitesse U :
