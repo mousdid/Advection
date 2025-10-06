@@ -41,9 +41,9 @@ Cette étude illustre comment les méthodes numériques (ici les volumes finis) 
 - Étude sur un **cas carré de référence**.
 - Analyse de l’instabilité du schéma explicite centré.
 - Vérification de la stabilité du schéma upwind selon la **condition CFL** :
-  $$\[
+  $$
   \text{CFL} = \frac{u \, \Delta t}{\Delta x}
-  \]$$
+  $$
 - Convergence testée en **temps** et en **espace** (erreur $$\( L_\infty \)$$).
 
 ### 2. Réchauffement d’un fluide par résistances
