@@ -58,12 +58,12 @@ Cette étude illustre comment les méthodes numériques (ici les volumes finis) 
 
 ### 3. Réchauffement avec écoulement potentiel
 - Introduction d’un champ de vitesse potentiel :
-  \[
+  $$\[
   \begin{cases}
   V_r = (1 - R^2/r^2) U \cos(\theta) \\
   V_\theta = -(1 + R^2/r^2) U \sin(\theta)
   \end{cases}
-  \]
+  \]$$
 - Étude de la compétition **advection–diffusion** selon la vitesse U :
   - Calcul des **nombres de Reynolds et de Péclet**.
   - Analyse de la température moyenne selon différentes vitesses.
@@ -151,9 +151,9 @@ paraview output/*.vtu
 
 - Cours de **Volumes Finis et Équations aux Dérivées Partielles (MATMECA – ENSEIRB)**  
 - Théorie de l’advection-diffusion :  
-  \[
+ $$ \[
   \rho c_p \frac{\partial T}{\partial t} + (u \cdot \nabla)T - \lambda \Delta T = 0
-  \]
+  \]$$
 - Logiciels : [Gmsh](https://gmsh.info), [Paraview](https://www.paraview.org)
 
 ---
@@ -161,4 +161,4 @@ paraview output/*.vtu
 ## ✍️ Auteur
 
 **OUSDID Mohamed Yassir**  
-_Projet réalisé dans le cadre du cours de Mécanique et Transferts Thermiques (2A MATMECA – Janvier 2024)._
+_Projet réalisé dans le cadre du cours de Mécanique et Transferts Thermiques ( Janvier 2024)._
