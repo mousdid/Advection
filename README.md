@@ -1,4 +1,4 @@
-# 🔥 Résolution Numérique de l’Équation d’Advection-Diffusion 2D
+#  Résolution Numérique de l’Équation d’Advection-Diffusion 2D
 
 ## 📘 Aperçu du projet
 
