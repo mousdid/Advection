@@ -60,7 +60,7 @@ Cette étude illustre comment les méthodes numériques (ici les volumes finis) 
 - Introduction d’un champ de vitesse potentiel :
   
 
-  $$\(V_r = (1 - R^2/r^2) U \cos(\theta)\)$$ 
+  $$\(V_r = (1 - R^2/r^2) U \cos(\theta)\)$$ \\
   $$\(V_\theta = -(1 + R^2/r^2) U \sin(\theta)\)$$
   
   
