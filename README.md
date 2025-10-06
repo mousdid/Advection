@@ -60,7 +60,7 @@ Cette étude illustre comment les méthodes numériques (ici les volumes finis) 
 - Introduction d’un champ de vitesse potentiel :
   
 
-  $$\(V_r = (1 - R^2/r^2) U \cos(\theta)\)$$ \\
+  $$\(V_r = (1 - R^2/r^2) U \cos(\theta)\)$$ ;
   $$\(V_\theta = -(1 + R^2/r^2) U \sin(\theta)\)$$
   
   
@@ -159,4 +159,4 @@ paraview output/*.vtu
 ## ✍️ Auteur
 
 **OUSDID Mohamed Yassir**  
-_Projet réalisé dans le cadre du cours de Mécanique et Transferts Thermiques ( Janvier 2024)._
+_Projet réalisé dans le cadre du cours de POO en C++ ( Janvier 2024)._
