@@ -151,9 +151,7 @@ paraview output/*.vtu
 
 - Cours de **Volumes Finis et Équations aux Dérivées Partielles (MATMECA – ENSEIRB)**  
 - Théorie de l’advection-diffusion :  
- $$ \(
-  \rho c_p \frac{\partial T}{\partial t} + (u \cdot \nabla)T - \lambda \Delta T = 0
-  \)$$
+ $$\(\rho c_p \frac{\partial T}{\partial t} + (u \cdot \nabla)T - \lambda \Delta T = 0\)$$
 - Logiciels : [Gmsh](https://gmsh.info), [Paraview](https://www.paraview.org)
 
 ---
