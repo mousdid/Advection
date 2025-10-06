@@ -1,0 +1,31 @@
+[other]
+# Name of the mesh
+mesh = "Meshes/circle_with_holeraff1.mesh"
+# Diffusion coefficients
+mu = 0.000000143
+# Results folder
+results = "Results/FullCase/"
+# Numerical flux choice: centered or upwind
+numerical_flux = "upwind"
+
+[physics]
+P_kettle = 150.00
+
+[time]
+# Time parameters
+t0 = 0.0
+tfinal = 4.0
+dt =1.0
+# Time scheme: ExplicitEuler = Explicit Euler ImplicitEuler = Implicit Euler
+scheme = "ImplicitEuler"
+
+# Boundary Conditions
+[BC]
+ref = [1,2]
+BC = ["Dirichlet","Neumann"]
+
+# Test scenarii
+# Choice between:  diffusion_advection_temp_neumann;diffusion_temp_neumann; diffusion_hom_neumann ; diffusion_all_BC ;
+# advection_hom_neumann ; advection_all_BC ; diffusion_advection_all_BC; 
+[scenarii]
+which_scenario = "diffusion_advection_temp_neumann"

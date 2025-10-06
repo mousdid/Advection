@@ -1,0 +1,29 @@
+[other]
+# Name of the mesh
+mesh = "Meshes/square_mini.mesh"
+# Diffusion coefficients
+mu = 0.8
+# Results folder
+results = "Results/Validation2/"
+# Numerical flux choice: centered or upwind
+numerical_flux = "upwind"
+
+[time]
+# Time parameters
+t0 = 0.0
+tfinal = 0.001
+dt = 0.001
+# Time scheme: ExplicitEuler = Explicit Euler ImplicitEuler = Implicit Euler
+scheme = "ImplicitEuler"
+
+# Boundary Conditions
+[BC]
+ref = [1,2,3,4]
+BC = ["Neumann","Dirichlet","Neumann","Dirichlet"]
+
+# Test scenarii
+# Choice between: none ; diffusion_hom_neumann ; diffusion_all_BC ;
+# advection_hom_neumann ; advection_all_BC ; diffusion_advection_all_BC
+[scenarii]
+which_scenario = "diffusion_all_BC"
+
