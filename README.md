@@ -143,7 +143,7 @@ paraview output/*.vtu
 | Visualisation | **Paraview**, **Gmsh** |
 | Maillage | **GMSH** (.geo, .mesh) |
 | Compilation | **CMake**, **g++** |
-| Analyse et tracés | **Python (Matplotlib, NumPy)** *(optionnel pour post-traitement)* |
+| Analyse et tracés | **Python (Matplotlib, NumPy)**|
 
 ---
 
