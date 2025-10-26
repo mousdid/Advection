@@ -1,3 +1,0 @@
-/home/yassir/Projet_TP5/code/FV_2D/CMakeFiles/rebuild_cache.dir
-/home/yassir/Projet_TP5/code/FV_2D/CMakeFiles/edit_cache.dir
-/home/yassir/Projet_TP5/code/FV_2D/CMakeFiles/tp5_fv_2d_Release.dir
