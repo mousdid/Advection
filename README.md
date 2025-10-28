@@ -1,17 +1,17 @@
 #  Résolution Numérique de l’Équation d’Advection-Diffusion 2D
 
-## 📘 Aperçu du projet
+##  Aperçu du projet
 
 Ce projet implémente la **résolution numérique de l’équation d’advection-diffusion 2D** en utilisant la **méthode des volumes finis (MVF)**.  
 Le but est d’analyser la compétition entre **advection** et **diffusion** dans différents régimes physiques, à travers plusieurs cas d’étude.
 
 Le code, écrit en **C++**, repose sur la discrétisation spatiale et temporelle de l’équation de la chaleur appliquée à un fluide (l’eau), et met en œuvre plusieurs schémas numériques pour évaluer leur **stabilité**, **convergence** et **précision**.
 
-📂 Code source : [github.com/mousdid/Advection](https://github.com/mousdid/Advection)
+ Code source : [github.com/mousdid/Advection](https://github.com/mousdid/Advection)
 
 ---
 
-## 🎯 Objectifs
+##  Objectifs
 
 - Étudier la stabilité et la convergence des schémas numériques :
   - **Explicite centré (instable)**
@@ -25,7 +25,7 @@ Le code, écrit en **C++**, repose sur la discrétisation spatiale et temporelle
 
 ---
 
-## 🧠 Motivation scientifique
+##  Motivation scientifique
 
 Le transfert de chaleur dans les fluides est un phénomène fondamental en mécanique des fluides et en thermique.  
 Cette étude illustre comment les méthodes numériques (ici les volumes finis) permettent de :
@@ -35,7 +35,7 @@ Cette étude illustre comment les méthodes numériques (ici les volumes finis) 
 
 ---
 
-## ⚙️ Méthodologie
+##  Méthodologie
 
 ### 1. Validation du schéma
 - Étude sur un **cas carré de référence**.
@@ -71,7 +71,7 @@ Cette étude illustre comment les méthodes numériques (ici les volumes finis) 
 
 ---
 
-## 📊 Principaux résultats
+##  Principaux résultats
 
 | Étude | Observation clé |
 |--------|------------------|
@@ -85,7 +85,7 @@ Cette étude illustre comment les méthodes numériques (ici les volumes finis) 
 
 ---
 
-## 🧩 Structure du projet
+##  Structure du projet
 
 ```
 Advection/
@@ -113,7 +113,7 @@ Advection/
 
 ---
 
-## 🚀 Exécution
+##  Exécution
 
 ### 1. Compiler le projet
 ```bash
@@ -135,7 +135,7 @@ paraview output/*.vtu
 
 ---
 
-## 🧮 Outils utilisés
+##  Outils utilisés
 
 | Type | Outil / Bibliothèque |
 |------|----------------------|
@@ -147,7 +147,7 @@ paraview output/*.vtu
 
 ---
 
-## 🧾 Références
+##  Références
 
 - Cours de **Volumes Finis et Équations aux Dérivées Partielles (MATMECA – ENSEIRB)**  
 - Théorie de l’advection-diffusion :  
@@ -156,7 +156,7 @@ paraview output/*.vtu
 
 ---
 
-## ✍️ Auteur
+##  Auteur
 
 **OUSDID Mohamed Yassir**  
 _Projet réalisé dans le cadre du cours de POO en C++ ( Janvier 2024)._
